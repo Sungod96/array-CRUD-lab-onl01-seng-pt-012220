@@ -13,19 +13,20 @@ end
 
 def add_element_to_start_of_array(array, element)
   types_of_pizza = ["sausage","pepperoni","cheese"]
-  types_of_pizza.unshift ("pineapple")
+  types_of_pizza.unshift
   puts types_of_pizza.inspect
 end
 
 def remove_element_from_end_of_array(array)
   types_of_pizza = ["sausage","pepperoni","cheese"]
-  types_of_pizza.unshift ("cheese")
+  types_of_pizza.pop
   types_of_pizza.inspect
 end
 
 def remove_element_from_start_of_array(array)
-  
-end
+  types_of_pizza = ["pepperoni","sausage", "cheese"]
+  types_of_pizza =
+  end
 
 def retrieve_element_from_index(array, index_number)
   
