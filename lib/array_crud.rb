@@ -35,9 +35,11 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  
+  types_of_pizza = ["pepperoni", "sausage", "cheese",]
+  types_of_pizza.index("pepperoni")
 end
 
 def retrieve_last_element_from_array(array)
-  
+  types_of_pizza = ["pepperoni", "sausage" , "cheese"]
+  types_of_pizza.index("cheese")
 end
