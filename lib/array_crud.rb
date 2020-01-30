@@ -25,11 +25,13 @@ end
 
 def remove_element_from_start_of_array(array)
   types_of_pizza = ["pepperoni","sausage", "cheese"]
-  types_of_pizza =
+  "pepperoni" = types_of_pizza.shift
+  types_of_pizza.inspect
   end
 
 def retrieve_element_from_index(array, index_number)
-  
+  types_of_pizza =["pepperoni", "sausage", "cheese", ]
+  types_of_pizza.index ("pepperoni")
 end
 
 def retrieve_first_element_from_array(array)
